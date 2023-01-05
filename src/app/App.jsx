@@ -3,7 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import LandingLayout from "./Layouts/LandingLayout";
 
 const HomePage = React.lazy(() => import("./pages/HomePage"));
-const AboutPage = React.lazy(() => import("./pages/AboutPage"));
+const TodoPage = React.lazy(() => import("./pages/TodoPage"));
 const NoMatchPage = React.lazy(() => import("./pages/NoMatchPage"));
 
 export default function App() {
@@ -13,16 +13,16 @@ export default function App() {
         <Route
           index
           element={
-            <React.Suspense fallback={<>...</>}>
+            <React.Suspense fallback={<>Cargando...</>}>
               <HomePage />
             </React.Suspense>
           }
         />
         <Route
-          path="about"
+          path="todo"
           element={
-            <React.Suspense fallback={<>...</>}>
-              <AboutPage />
+            <React.Suspense fallback={<>Cargando...</>}>
+              <TodoPage />
             </React.Suspense>
           }
         />

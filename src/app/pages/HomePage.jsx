@@ -1,9 +1,11 @@
 import React from "react";
+import ExampleForm from "../components/ExampleForm/ExampleForm";
 
 function HomePage() {
   return (
-    <div>
+    <div className="container">
       <h1>Home</h1>
+      <ExampleForm />
     </div>
   );
 }
