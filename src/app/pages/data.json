@@ -1,0 +1,259 @@
+[
+  {
+    "id": 1,
+    "name": "certificados-academicos",
+    "display_name": "CERTIFICADOS ACADEMICOS",
+    "created_at": "2023-01-16T12:24:51.000000Z",
+    "updated_at": "2023-01-16T12:24:51.000000Z",
+    "deleted_at": null,
+    "types": [
+      {
+        "id": 1,
+        "category_id": 1,
+        "name": "titulo-licenciatura-general",
+        "display_name": "TITULO LICENCIATURA GENERAL",
+        "created_at": "2023-01-16T12:24:51.000000Z",
+        "updated_at": "2023-01-16T12:24:51.000000Z",
+        "deleted_at": null
+      },
+      {
+        "id": 2,
+        "category_id": 1,
+        "name": "titulo-master",
+        "display_name": "TITULO MASTER",
+        "created_at": "2023-01-16T12:24:51.000000Z",
+        "updated_at": "2023-01-16T12:24:51.000000Z",
+        "deleted_at": null
+      },
+      {
+        "id": 3,
+        "category_id": 1,
+        "name": "titulo-grado",
+        "display_name": "TITULO GRADO",
+        "created_at": "2023-01-16T12:24:51.000000Z",
+        "updated_at": "2023-01-16T12:24:51.000000Z",
+        "deleted_at": null
+      },
+      {
+        "id": 4,
+        "category_id": 1,
+        "name": "titulo-bachiller",
+        "display_name": "TITULO BACHILLER",
+        "created_at": "2023-01-16T12:24:51.000000Z",
+        "updated_at": "2023-01-16T12:24:51.000000Z",
+        "deleted_at": null
+      },
+      {
+        "id": 5,
+        "category_id": 1,
+        "name": "titulo-eso",
+        "display_name": "TITULO ESO",
+        "created_at": "2023-01-16T12:24:51.000000Z",
+        "updated_at": "2023-01-16T12:24:51.000000Z",
+        "deleted_at": null
+      },
+      {
+        "id": 6,
+        "category_id": 1,
+        "name": "titulo-doctorado",
+        "display_name": "TITULO DOCTORADO",
+        "created_at": "2023-01-16T12:24:51.000000Z",
+        "updated_at": "2023-01-16T12:24:51.000000Z",
+        "deleted_at": null
+      },
+      {
+        "id": 7,
+        "category_id": 1,
+        "name": "otros-academicos",
+        "display_name": "OTROS TITULOS (Cambridge, Trinity, Esade….)",
+        "created_at": "2023-01-16T12:24:51.000000Z",
+        "updated_at": "2023-01-16T12:24:51.000000Z",
+        "deleted_at": null
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "certificados-civiles",
+    "display_name": "CERTIFICADOS CIVILES",
+    "created_at": "2023-01-16T12:24:51.000000Z",
+    "updated_at": "2023-01-16T12:24:51.000000Z",
+    "deleted_at": null,
+    "types": [
+      {
+        "id": 8,
+        "category_id": 2,
+        "name": "certificado-matrimonio",
+        "display_name": "CERTIFICADO DE MATRIMONIO",
+        "created_at": "2023-01-16T12:24:51.000000Z",
+        "updated_at": "2023-01-16T12:24:51.000000Z",
+        "deleted_at": null
+      },
+      {
+        "id": 9,
+        "category_id": 2,
+        "name": "certificado-nacimiento",
+        "display_name": "CERTIFICADO DE NACIMIENTO",
+        "created_at": "2023-01-16T12:24:51.000000Z",
+        "updated_at": "2023-01-16T12:24:51.000000Z",
+        "deleted_at": null
+      },
+      {
+        "id": 10,
+        "category_id": 2,
+        "name": "certificado-defuncion",
+        "display_name": "CERTIFICADO DE DEFUNCIÓN",
+        "created_at": "2023-01-16T12:24:51.000000Z",
+        "updated_at": "2023-01-16T12:24:51.000000Z",
+        "deleted_at": null
+      },
+      {
+        "id": 11,
+        "category_id": 2,
+        "name": "certificado-nacionalidad",
+        "display_name": "CERTIFICADO DE NACIONALIDAD",
+        "created_at": "2023-01-16T12:24:51.000000Z",
+        "updated_at": "2023-01-16T12:24:51.000000Z",
+        "deleted_at": null
+      },
+      {
+        "id": 12,
+        "category_id": 2,
+        "name": "otros-civiles",
+        "display_name": "OTROS DOCUMENTOS CIVILES",
+        "created_at": "2023-01-16T12:24:51.000000Z",
+        "updated_at": "2023-01-16T12:24:51.000000Z",
+        "deleted_at": null
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "certificados-judiciales",
+    "display_name": "CERTIFICADOS JUDICIALES",
+    "created_at": "2023-01-16T12:24:51.000000Z",
+    "updated_at": "2023-01-16T12:24:51.000000Z",
+    "deleted_at": null,
+    "types": [
+      {
+        "id": 13,
+        "category_id": 3,
+        "name": "certificado-penales",
+        "display_name": "CERTIFICADO DE PENALES",
+        "created_at": "2023-01-16T12:24:51.000000Z",
+        "updated_at": "2023-01-16T12:24:51.000000Z",
+        "deleted_at": null
+      },
+      {
+        "id": 14,
+        "category_id": 3,
+        "name": "otros-judiciales",
+        "display_name": "OTROS CERTIFICADOS JUDICIALES",
+        "created_at": "2023-01-16T12:24:51.000000Z",
+        "updated_at": "2023-01-16T12:24:51.000000Z",
+        "deleted_at": null
+      },
+      {
+        "id": 15,
+        "category_id": 3,
+        "name": "legitimacion",
+        "display_name": "LEGITIMACION",
+        "created_at": "2023-01-16T12:24:51.000000Z",
+        "updated_at": "2023-01-16T12:24:51.000000Z",
+        "deleted_at": null
+      },
+      {
+        "id": 16,
+        "category_id": 3,
+        "name": "apostilla",
+        "display_name": "APOSTILLA",
+        "created_at": "2023-01-16T12:24:51.000000Z",
+        "updated_at": "2023-01-16T12:24:51.000000Z",
+        "deleted_at": null
+      },
+      {
+        "id": 17,
+        "category_id": 3,
+        "name": "otros-notariales",
+        "display_name": "OTROS DOCUMENTOS NOTARIALES",
+        "created_at": "2023-01-16T12:24:51.000000Z",
+        "updated_at": "2023-01-16T12:24:51.000000Z",
+        "deleted_at": null
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "certificados-notariales",
+    "display_name": "CERTIFICADOS NOTARIALES",
+    "created_at": "2023-01-16T12:24:51.000000Z",
+    "updated_at": "2023-01-16T12:24:51.000000Z",
+    "deleted_at": null,
+    "types": []
+  },
+  {
+    "id": 5,
+    "name": "certificados-medicos-sanitarios",
+    "display_name": "CERTIFICADOS MEDICOS/SANITARIOS",
+    "created_at": "2023-01-16T12:24:51.000000Z",
+    "updated_at": "2023-01-16T12:24:51.000000Z",
+    "deleted_at": null,
+    "types": [
+      {
+        "id": 18,
+        "category_id": 5,
+        "name": "certificados-vacunas-covid",
+        "display_name": "CERTIFICADOS VACUNAS COVID",
+        "created_at": "2023-01-16T12:24:51.000000Z",
+        "updated_at": "2023-01-16T12:24:51.000000Z",
+        "deleted_at": null
+      },
+      {
+        "id": 19,
+        "category_id": 5,
+        "name": "certificados-vacunas",
+        "display_name": "CERTIFICADOS VACUNAS",
+        "created_at": "2023-01-16T12:24:51.000000Z",
+        "updated_at": "2023-01-16T12:24:51.000000Z",
+        "deleted_at": null
+      },
+      {
+        "id": 20,
+        "category_id": 5,
+        "name": "informes-medicos",
+        "display_name": "INFORMES MEDICOS",
+        "created_at": "2023-01-16T12:24:51.000000Z",
+        "updated_at": "2023-01-16T12:24:51.000000Z",
+        "deleted_at": null
+      },
+      {
+        "id": 21,
+        "category_id": 5,
+        "name": "otros-medicos",
+        "display_name": "OTROS CERTIFICADOS MEDICOS",
+        "created_at": "2023-01-16T12:24:51.000000Z",
+        "updated_at": "2023-01-16T12:24:51.000000Z",
+        "deleted_at": null
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "otros-certificados",
+    "display_name": "OTROS CERTIFICADOS",
+    "created_at": "2023-01-16T12:24:51.000000Z",
+    "updated_at": "2023-01-16T12:24:51.000000Z",
+    "deleted_at": null,
+    "types": [
+      {
+        "id": 22,
+        "category_id": 6,
+        "name": "otros",
+        "display_name": "OTROS CERTIFICADOS",
+        "created_at": "2023-01-16T12:24:51.000000Z",
+        "updated_at": "2023-01-16T12:24:51.000000Z",
+        "deleted_at": null
+      }
+    ]
+  }
+]

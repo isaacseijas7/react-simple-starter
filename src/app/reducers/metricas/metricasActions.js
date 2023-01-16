@@ -1,0 +1,9 @@
+/* Creando una constante que es un objeto con dos propiedades. */
+export const METRICAS_ACTIONS = {
+  GET_TRANSLATOR: "GET_TRANSLATOR",
+  GET_PROFILE_TRANSLATOR: "GET_PROFILE_TRANSLATOR",
+  GET_DIARIO: "GET_DIARIO",
+  GET_SEMANAL: "GET_SEMANAL",
+  GET_MENSUAL: "GET_MENSUAL",
+  GET_ANUAL: "GET_ANUAL",
+};

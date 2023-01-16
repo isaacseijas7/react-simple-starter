@@ -4,6 +4,9 @@ import LandingLayout from "./Layouts/LandingLayout";
 
 const HomePage = React.lazy(() => import("./pages/HomePage"));
 const TodoPage = React.lazy(() => import("./pages/TodoPage"));
+const SelectDinamicoPage = React.lazy(() =>
+  import("./pages/SelectDinamicoPage")
+);
 const NoMatchPage = React.lazy(() => import("./pages/NoMatchPage"));
 
 export default function App() {
@@ -23,6 +26,14 @@ export default function App() {
           element={
             <React.Suspense fallback={<>Cargando...</>}>
               <TodoPage />
+            </React.Suspense>
+          }
+        />
+        <Route
+          path="select_dinamico"
+          element={
+            <React.Suspense fallback={<>Cargando...</>}>
+              <SelectDinamicoPage />
             </React.Suspense>
           }
         />

@@ -24,6 +24,11 @@ export const saveTodoDispatch = (todo) => {
   };
 };
 
+/**
+ * Devuelve un objeto con una propiedad de tipo y una propiedad de carga útil
+ * @param todo - El objeto todo que queremos actualizar.
+ * @returns Un objeto con un tipo y una carga útil.
+ */
 export const updateTodoDispatch = (todo) => {
   return {
     type: TODOS_ACTIONS.UPDATE_TODO,

@@ -27,6 +27,9 @@ function NavLanding() {
             <NavLink className="nav-item nav-link" to="/todo">
               Todo
             </NavLink>
+            <NavLink className="nav-item nav-link" to="/select_dinamico">
+              Select dinamico
+            </NavLink>
           </div>
         </div>
       </div>
